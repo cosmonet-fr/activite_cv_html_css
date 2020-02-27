@@ -1,0 +1,60 @@
+/*Style CSS de mon CV | SÉPHANE BILLOIS */
+@font-face {
+    font-family: 'liberation_serifregular';
+    src: url('font/liberationserif_regular_macroman/LiberationSerif-Regular-webfont.eot');
+    src: url('font/liberationserif_regular_macroman/LiberationSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/liberationserif_regular_macroman/LiberationSerif-Regular-webfont.woff2') format('woff2'),
+         url('font/liberationserif_regular_macroman/LiberationSerif-Regular-webfont.woff') format('woff'),
+         url('font/liberationserif_regular_macroman/LiberationSerif-Regular-webfont.ttf') format('truetype'),
+         url('font/liberationserif_regular_macroman/LiberationSerif-Regular-webfont.svg#liberation_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+  background-color: #fff;
+  background: url(img/fond-beige.jpg);
+}
+p, li{
+  font-family: "liberation_serifregular";
+  color: black;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "liberation_serifregular";
+  color: #600;
+}
+h1, .sousTitre{
+  text-align: center;
+}
+.photoIdentite{
+  float: right;
+  border: 10px #fff solid;
+  box-shadow: 6px 6px 6px black;
+}
+header {
+  margin-left: 170px;
+}
+#lisret {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 1000px;
+    background-color: black;
+
+}
+#corp{
+  margin-left: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#experience {
+  width: 29%;
+}
+#competences {
+  width: 29%;
+}
+#formation {
+  width: 29%;
+}

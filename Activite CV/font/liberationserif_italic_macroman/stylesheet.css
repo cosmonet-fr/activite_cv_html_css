@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'liberation_serifitalic';
+    src: url('LiberationSerif-Italic-webfont.eot');
+    src: url('LiberationSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LiberationSerif-Italic-webfont.woff2') format('woff2'),
+         url('LiberationSerif-Italic-webfont.woff') format('woff'),
+         url('LiberationSerif-Italic-webfont.ttf') format('truetype'),
+         url('LiberationSerif-Italic-webfont.svg#liberation_serifitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
